@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 2pc;
+    text-align: center;
+    line-height: 50px; /* vertically centers text in the header */
+}
+
+.choices {
+    display: flex;
+    justify-content: center; /* centers the choices horizontally */
+    align-items: center; /* vertically centers the choices */
+    margin-top: 100px; /* optional: adds some space above the choices */
+}
+
+.choice {
+    margin: 0 10px; /* optional: adds some space between the choices */
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+img {
+    height: 150px; /* adjust the height as needed */
+    width: auto; /* maintains aspect ratio */
+}
+
+.score-board {
+    display: flex;
+    justify-content: center; /* centers the score-board horizontally */
+    align-items: center; /* vertically centers the score-board */
+    margin-top: 20px; /* optional: adds some space above the score-board */
+}
+
+.score {
+    margin: 0 20px; /* optional: adds some space between the score sections */
+    text-align: center; /* centers the text within each score section */
+}
+
+.msg-container {
+  
+    text-align: center; /* centers the message container */
+    margin-top: 20px; /* optional: adds some space above the message container */
+   
+}
+
+#msg {
+    background-color: aqua;
+    font-size: 1.5pc; /* adjust the font size as needed */
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#user-score,#comp-score{
+    font-size: 3rem;
+}
